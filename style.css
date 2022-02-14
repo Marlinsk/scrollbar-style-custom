@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne Tactile', cursive;
+}
+
+body {
+    background-color: #121212;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+}
+
+section h2 {
+    color: #F5F5F5;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #F5F5F5;
+    font-size: 1.2em;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #E6E6E6);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #F05454);
+    border-radius: 6px;
+}
